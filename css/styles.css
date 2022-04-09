@@ -23,10 +23,11 @@ body {
  }
  /* -------------------header--------------------- */
  .container {
-     width: 1200 px;
+     width: 1230 px;
      padding-left: 15px;
      padding-right: 15px;
-     margin: 0 auto;
+     margin-left: auto;
+     margin-right: auto;
  }
 /* header-nav */
 .main-header {
@@ -146,6 +147,13 @@ background-color: #2196F3;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.container-list {
+    display: flex; 
+}
+.container-item {
+    margin-right: 0;
+    margin-left: 30px;
+}
 .container-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -176,7 +184,17 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
+.about-list {
+    display: flex;
+}
+.about-item {
+    margin-left: 30px;
+}
 /*-------------------------- Наша команда----------------------*/ 
+.teames-list {
+    display: flex;
+    flex-wrap: wrap;
+}
 .teames-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -189,10 +207,11 @@ color: var(--second-title-color);
 }
 .teames-item{
     margin-top: 0;
+    margin-left: 30px;
     margin-bottom: 30px;
 }
 .teames-item-names {
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
 font-size: 16px;
@@ -212,6 +231,9 @@ letter-spacing: 0.03em;
 color: var(--main-color);
 }
 /*-------------------------- Портфолио-------------------*/
+.filter-item {
+    display: flex;
+}
 .filter-btn-active {
     font-weight: 500;
 font-size: 16px;
@@ -243,7 +265,21 @@ color: var(--second-title-color);
     background-color: var(--accent-color);
 }  
 /*-------------------------- Проект-------------------*/
+.border {
+    text-align: left;
+    bottom: right;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-item {
+    width: 370px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
 .project-title {
+    margin-bottom: 4px;
     font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
@@ -259,9 +295,13 @@ color: var(--main-color);
 }
 /*-------------------------- Подвал----------------------*/
 .footer-logo {
+    margin-top: 0;
+    margin-bottom: 20px;
     color: var(--first-title-color);
 }
-.adress {
+.adress { 
+    margin-top: 0;
+    margin-bottom: 9px;
     font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -276,5 +316,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A; 
  }
