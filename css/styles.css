@@ -26,8 +26,7 @@ body {
      width: 1230 px;
      padding-left: 15px;
      padding-right: 15px;
-     margin-left: auto;
-     margin-right: auto;
+     margin: 0 auto;
  }
 /* header-nav */
 .main-header {
@@ -206,6 +205,7 @@ letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 .teames-item{
+    display: block;
     margin-top: 0;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -231,6 +231,9 @@ letter-spacing: 0.03em;
 color: var(--main-color);
 }
 /*-------------------------- Портфолио-------------------*/
+.filter {
+    margin-bottom: 34px;
+}
 .filter-item {
     display: flex;
 }
@@ -250,6 +253,7 @@ background-color: var(--accent-color);
     color: var(--second-title-color);
 }
 .filter-btn {
+    margin-left: 8px;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -274,6 +278,7 @@ color: var(--second-title-color);
     flex-wrap: wrap;
 }
 .project-item {
+    display: block;
     width: 370px;
     margin-left: 30px;
     margin-bottom: 30px;
